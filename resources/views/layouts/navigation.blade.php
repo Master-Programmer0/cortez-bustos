@@ -21,42 +21,22 @@
             </li>
 
             <li class="nav-item">
+                <a href="{{ route('users.index') }}" class="nav-link">
+                <i class="nav-icon fas fa-circle nav-icon"></i>
+                    <p>
+                        {{ __('User') }}
+                    </p>
+                </a>
+            </li>
+
+            <li class="nav-item">
                 <a href="{{ route('employees.index') }}" class="nav-link">
                 <i class="nav-icon fas fa-circle nav-icon"></i>
                     <p>
-                        {{ __('Employee Management') }}
+                        {{ __('BSIT 3A') }}
                     </p>
                 </a>
             </li>
-            
-
-            <li class="nav-item">
-                <a href="{{ route('about') }}" class="nav-link">
-                <i class="nav-icon fas fa-circle nav-icon"></i>
-                    <p>
-                        {{ __('About') }}
-                    </p>
-                </a>
-            </li>
-
-            <li class="nav-item">
-                <a href="{{ route('users.index') }}" class="nav-link">
-                <i class="nav-icon fas fa-circle nav-icon"></i>
-                    <p>
-                        {{ __('System Management') }}
-                    </p>
-                </a>
-            </li>
-
-            <li class="nav-item">
-                <a href="{{ route('users.index') }}" class="nav-link">
-                <i class="nav-icon fas fa-circle nav-icon"></i>
-                    <p>
-                        {{ __('User  Management') }}
-                    </p>
-                </a>
-            </li>
-
            
             
         </ul>
