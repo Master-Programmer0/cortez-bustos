@@ -10,8 +10,8 @@
             <div class="card">
                 <div class="card-body">
                     <h5 class="card-title"><b>Student List</b></h5>
-                    <button type="submit" class="btn btn-primary" href="{{ route('student.index') }}" style="margin-left: 90%; margin-top: -5%">
-                        ADD
+                    <button type="submit" class="btn btn-primary"  style="margin-left: 90%; margin-top: -5%">
+                        <a style="color: white" href="{{ route('student.index') }}">ADD</a>
                     </button>
                     <div class="table-responsive">
                         <table class="table">
