@@ -30,7 +30,7 @@
             </li>
 
             <li class="nav-item">
-                <a href="{{ route('employees.index') }}" class="nav-link">
+                <a href="{{ route('student.index') }}" class="nav-link">
                 <i class="nav-icon fas fa-circle nav-icon"></i>
                     <p>
                         {{ __('BSIT 3A') }}
