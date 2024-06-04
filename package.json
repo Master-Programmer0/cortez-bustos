@@ -48,5 +48,8 @@
             "type": "opencollective",
             "url": "https://opencollective.com/bootstrap"
         }
-    ]
+    ],
+    "dependencies": {
+        "@popperjs/core": "^2.11.8"
+    }
 }

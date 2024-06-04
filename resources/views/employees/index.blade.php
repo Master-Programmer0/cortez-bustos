@@ -17,13 +17,13 @@
                     <form method="POST" action="{{ route('employees.store') }}" class="form-horizontal needs-validation" style="padding: 1%;" novalidate>
                         @csrf
 
-                        <label for="first_name" class="form-label">First name</label>
+                        <label for="first_name" class="form-label">F name</label>
                         <input type="text" class="form-control" id="first_name" name="first_name" style="width: 100%; margin: auto; margin-bottom:1%;" required>
 
-                        <label for="last_name" class="form-label">Last name</label>
+                        <label for="last_name" class="form-label">L name</label>
                         <input type="text" class="form-control" id="last_name" name="last_name" style="width: 100%; margin: auto; margin-bottom:1%;" required>
 
-                        <label for="middle_name" class="form-label">Middle name</label>
+                        <label for="middle_name" class="form-label">M name</label>
                         <input type="text" class="form-control" id="middle_name" name="middle_name" style="width: 100%; margin: auto; margin-bottom:1%;" required>
                         
                         <label for="address" class="form-label">Address</label>
